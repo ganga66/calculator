@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calulator</title>
+</head>
+<body>
+   <div class="main">
+    <center>
+        <h1 class="head">Calculator</h1>
+    </center>
+      <input type="text" id = 'result' class="form-control" aria-placeholder="Enter">
+      <div class="btn">
+        <button id="C" onclick="clearnum()">C</button>
+        <button id="clear" onclick="clearone()">del</button>
+        <button id="modulas" onclick="displayNum('%')">%</button>
+        <button id="multiply" onclick="displayNum('*')">*</button> 
+        <br> 
+       <button id="seven" onclick="displayNum(7)">7</button>
+       <button id="eight" onclick="displayNum(8)">8</button>
+       <button id="nine" onclick="displayNum(9)">9</button>
+       <button id="plus" onclick="displayNum('+')">+</button> 
+       <br>
+       <button  id="six" onclick="displayNum(6)">6</button>
+       <button  id="five" onclick="displayNum(5)">5</button>
+       <button  id="four" onclick="displayNum(4)">4</button>
+       <button  id="minus" onclick="displayNum('-')">-</button> 
+       <br>
+       <button id="three" onclick="displayNum(3)">3</button>
+       <button id="two" onclick="displayNum(2)">2</button>
+       <button id="one" onclick="displayNum(1)">1 </button>
+       <button id="division" onclick="displayNum('/')">/</button> 
+       <br>
+       <button id="doublezero" onclick="displayNum('00')">00</button>
+       <button id="zero" onclick="displayNum(0)">0</button>
+       <button id="dott" onclick="displayNum('.')">. </button>
+       <button id="equalto" onclick="evaluvatenum()">=</button> 
+      </div>
+    </div>
+    <script src = './script.js' ></script>
+</body>
+</html>
